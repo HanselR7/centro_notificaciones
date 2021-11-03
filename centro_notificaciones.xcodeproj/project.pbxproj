@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2AFA13273337EE00EB182E /* extensiones_generales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AFA12273337EE00EB182E /* extensiones_generales.swift */; };
 		6C3DC09F2731D658002DC7B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC09E2731D658002DC7B0 /* AppDelegate.swift */; };
 		6C3DC0A12731D658002DC7B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC0A02731D658002DC7B0 /* SceneDelegate.swift */; };
 		6C3DC0A32731D658002DC7B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3DC0A22731D658002DC7B0 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C2AFA12273337EE00EB182E /* extensiones_generales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensiones_generales.swift; sourceTree = "<group>"; };
 		6C3DC09B2731D658002DC7B0 /* centro_notificaciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = centro_notificaciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3DC09E2731D658002DC7B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C3DC0A02731D658002DC7B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2AFA11273337D800EB182E /* extensiones */ = {
+			isa = PBXGroup;
+			children = (
+				6C2AFA12273337EE00EB182E /* extensiones_generales.swift */,
+			);
+			path = extensiones;
+			sourceTree = "<group>";
+		};
 		6C3DC0922731D658002DC7B0 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		6C3DC09D2731D658002DC7B0 /* centro_notificaciones */ = {
 			isa = PBXGroup;
 			children = (
+				6C2AFA11273337D800EB182E /* extensiones */,
 				6C3DC09E2731D658002DC7B0 /* AppDelegate.swift */,
 				6C3DC0A02731D658002DC7B0 /* SceneDelegate.swift */,
 				6C3DC0A22731D658002DC7B0 /* ViewController.swift */,
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C2AFA13273337EE00EB182E /* extensiones_generales.swift in Sources */,
 				6C3DC0A32731D658002DC7B0 /* ViewController.swift in Sources */,
 				6C3DC09F2731D658002DC7B0 /* AppDelegate.swift in Sources */,
 				6C3DC0A12731D658002DC7B0 /* SceneDelegate.swift in Sources */,
